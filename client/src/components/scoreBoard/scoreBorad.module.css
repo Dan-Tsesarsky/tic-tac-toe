@@ -1,0 +1,23 @@
+.scoreBorad {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: "500px";
+    height: "200px";
+  }
+  
+  .scoreBorad td, .scoreBorad th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .scoreBorad tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .scoreBorad tr:hover {background-color: #ddd;}
+  
+  .scoreBorad th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0a0606;
+    color: white;
+  }

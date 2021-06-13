@@ -1,0 +1,72 @@
+.game{
+    width: 300px;
+    height: 300px;
+ margin:auto;
+
+   
+   
+
+
+}
+.center {
+width: 100%;
+display: flex;
+justify-content: center;
+padding-top: 32px;
+}
+
+.game div{
+    height: 100px;
+width:100%;
+border: 1px;
+display: flex;
+border-style: solid;
+border-radius: 3px;
+justify-content: stretch;
+cursor: pointer;
+
+}
+
+.game div img{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 4px;
+}
+
+.game-row{
+    display: flex;
+   
+    
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    background: #222;
+}
+
+.header > * {
+    color: #eeeeee;
+    
+}
+
+.header__turn {
+    padding: 12px;
+}
+
+.header__status {
+    padding: 12px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header__restart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
